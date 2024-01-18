@@ -25,4 +25,4 @@ Here's a brief overview of how Google OAuth 2.0 works:
     Access tokens have a limited lifespan. When they expire, the application can use the refresh token to obtain a new access token without requiring user interaction.
     Google OAuth 2.0 provides a secure way for applications to access user data without exposing user credentials. It is commonly used in web and mobile applications that integrate with Google services such as Google Drive, Google Calendar, and YouTube, among others.
     
-Developers can find detailed documentation and guides on implementing Google OAuth 2.0 in their applications in the Google Identity Platform documentation.
+Developers can find detailed documentation and guides on implementing Google OAuth 2.0 in their applications in the [Google Identity Platform documentation](https://developers.google.com/identity/protocols/oauth2).
