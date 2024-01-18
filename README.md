@@ -33,13 +33,13 @@ Developers can find detailed documentation and guides on implementing Google OAu
 1. Clone the Repository into your local machine.
 2. Create a .env file in the root directory with the following contents:-
     <pre>
-        ```
+        `
         CLIENT_ID = <Refer Below>
         CLIENT_SECRET = <Refer Below>
         REDIRECT_URL = 'http://localhost:3000/oauth2callback'
         SCOPE_BASE_URL = 'https://www.googleapis.com/auth'
         USER_INFO_URL = 'https://www.googleapis.com/oauth2/v3/userinfo'
-        ```
+        `
     </pre>
 3. Run `npm i`
 4. Run `npm start`
