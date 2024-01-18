@@ -46,43 +46,43 @@ Developers can find detailed documentation and guides on implementing Google OAu
 ## **Steps to Get Client ID and Client Secret**
 
 ### 1. Go to the Google Cloud Console:
-    Visit the Google Cloud Console.
+    - Visit the Google Cloud Console.
 
 ### 2. Create a New Project:
-    Click on the project dropdown at the top of the page.
-    Click on "New Project."
-    Enter a name for your project and click "Create."
+    - Click on the project dropdown at the top of the page.
+    - Click on "New Project."
+    - Enter a name for your project and click "Create."
     
 ### 3. Enable the Identity Platform API:
-    In the left sidebar, navigate to "APIs & Services" > "Dashboard."
-    Click on "+ ENABLE APIS AND SERVICES."
-    Search for "Identity Platform API" and enable it.
+    - In the left sidebar, navigate to "APIs & Services" > "Dashboard."
+    - Click on "+ ENABLE APIS AND SERVICES."
+    - Search for "Identity Platform API" and enable it.
 
 ### 4. Configure OAuth Consent Screen:
-    In the left sidebar, navigate to "APIs & Services" > "OAuth consent screen."
-    Choose "External" and click "Create."
-    Fill in the required fields, including the "User support email" and "Developer contact information."
-    Add the "Authorized domains" for your application.
-    Scroll down and click "Save and Continue."
-    Complete the remaining steps of the OAuth consent screen setup.
+    - In the left sidebar, navigate to "APIs & Services" > "OAuth consent screen."
+    - Choose "External" and click "Create."
+    - Fill in the required fields, including the "User support email" and "Developer contact information."
+    - Add the "Authorized domains" for your application.
+    - Scroll down and click "Save and Continue."
+    - Complete the remaining steps of the OAuth consent screen setup.
     
 ### 5. Create OAuth 2.0 Credentials:
-    In the left sidebar, navigate to "APIs & Services" > "Credentials."
-    Click on "Create Credentials" and select "OAuth client ID."
-    Choose the application type (Web application or Other), enter a name for your client ID, and specify the authorized redirect URIs.
-    For a web application, add the redirect URI(s) where Google should redirect the user after they grant/deny permission.
-    For testing purposes, you can use http://localhost:PORT as a redirect URI.
-    Click "Create."
+    - In the left sidebar, navigate to "APIs & Services" > "Credentials."
+    - Click on "Create Credentials" and select "OAuth client ID."
+    - Choose the application type (Web application or Other), enter a name for your client ID, and specify the authorized redirect URIs.
+    - For a web application, add the redirect URI(s) where Google should redirect the user after they grant/deny permission.
+    - For testing purposes, you can use http://localhost:PORT as a redirect URI.
+    - Click "Create."
     
 ### 6. Obtain Client ID and Client Secret:
-    After creating the OAuth client ID, you will see a pop-up containing your Client ID and Client Secret.
-    Copy these credentials to a secure location, as you'll need them in your application.
+    - After creating the OAuth client ID, you will see a pop-up containing your Client ID and Client Secret.
+    - Copy these credentials to a secure location, as you'll need them in your application.
     
 ### 7. Configure API Scopes:
-    While creating the OAuth client ID, you can specify the API scopes your application needs. For email and profile information, you typically include the "openid", "email", and "profile" scopes.
+    - While creating the OAuth client ID, you can specify the API scopes your application needs. For email and profile information, you typically include the "openid", "email", and "profile" scopes.
     
 ### 8. Implement OAuth in Your Application:
-    Use the obtained Client ID and Client Secret in your application to initiate the OAuth flow.
+    - Use the obtained Client ID and Client Secret in your application to initiate the OAuth flow.
     
 **Note**:<br>
 When users authenticate, request the appropriate scopes (e.g., "openid", "email", and "profile") to access email and profile information.
