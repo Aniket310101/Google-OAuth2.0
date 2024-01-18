@@ -42,6 +42,7 @@ Developers can find detailed documentation and guides on implementing Google OAu
         ```
     </pre>
 3. Run `npm i`
+4. Run `npm start`
 
 
 ## **Steps to Get Client ID and Client Secret**
@@ -85,6 +86,6 @@ Developers can find detailed documentation and guides on implementing Google OAu
 ### 8. Implement OAuth in Your Application:
     Use the obtained Client ID and Client Secret in your application to initiate the OAuth flow.
     
-**Note**
+**Note**:<br>
 When users authenticate, request the appropriate scopes (e.g., "openid", "email", and "profile") to access email and profile information.
 Remember to keep your Client Secret secure and never expose it in public repositories or client-side code. Integrate the OAuth flow in your application according to your programming language and framework. Consult the Google Identity Platform documentation for detailed implementation guidelines specific to your development environment.
