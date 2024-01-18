@@ -5,7 +5,7 @@ Google OAuth 2.0 is an authentication and authorization protocol used by applica
 Here's a brief overview of how Google OAuth 2.0 works:
 
 + Application Registration:
-    Developers need to register their applications with the Google Cloud Console to obtain client credentials (client ID and client secret). This involves creating a project and enabling the         necessary APIs.
+    Developers need to register their applications with the Google Cloud Console to obtain client credentials (client ID and client secret). This involves creating a project and enabling the necessary APIs.
     
 + User Authentication:
     When a user wants to access a service provided by the application (e.g., signing in with their Google account), the application redirects the user to Google's authentication server.
