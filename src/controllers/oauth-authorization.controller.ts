@@ -8,7 +8,7 @@ export default class OauthAuthorizationController {
     public authorizeUser(req: Request, res: Response) {
         const scopes = (req.query.scopes as string).split(',');
         const authorizationUrl = new OAuthAuthorizationService().authorizeUser(scopes);
-        console.log('Redirect to User Consent Screen!')
+        console.log('Redirect to User Consent Screen!');
         res.redirect(authorizationUrl);
     }
 
