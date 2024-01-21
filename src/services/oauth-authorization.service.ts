@@ -38,7 +38,7 @@ export default class OAuthAuthorizationService {
   }
 
   public async generateTokens(q: any): Promise<TokensModel> {
-    console.log('Generating Token...');
+    console.log('Generating Tokens...');
     let tokens: TokensModel;
     try {
       const response = await OAuthAuthorizationService.oauth2Client.getToken(
