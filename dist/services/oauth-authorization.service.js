@@ -82,6 +82,7 @@ var OAuthAuthorizationService = /** @class */ (function () {
                         response = _a.sent();
                         tokens = response.tokens;
                         OAuthAuthorizationService.oauth2Client.setCredentials(tokens);
+                        console.log('Hello');
                         return [3 /*break*/, 4];
                     case 3:
                         error_1 = _a.sent();
